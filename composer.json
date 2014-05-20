@@ -1,5 +1,5 @@
 {
-    "name": "leewillis77/dotmailer-api",
+    "name": "kabudu/dotmailer-api",
     "description": "A PHP implementation of the v2 Dotmailer API.",
     "type": "library",
     "keywords": [
@@ -7,22 +7,25 @@
         "email",
         "api"
     ],
-    "homepage": "https://github.com/leewillis77/dotmailer-api",
+    "homepage": "https://github.com/kabudu/dotmailer-api",
     "license": "GPL-2.0",
     "authors": [
         {
             "name": "Lee Willis",
             "email": "lee@hydrant.co.uk"
+        },
+	{
+            "name": "Kamba Abudu",
+            "email": "kabudu@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/leewillis77/dotmailer-api/issues"
+        "issues": "https://github.com/kabudu/dotmailer-api/issues"
     },
     "require": {
         "php": ">=5.3.0",
         "guzzle/guzzle": "3.7.*",
-        "symfony/yaml": "2.4.*",
-        "phpunit/phpunit": "3.7.*"
+        "symfony/yaml": "2.4.*"
     },
     "autoload": {
         "psr-0": {
